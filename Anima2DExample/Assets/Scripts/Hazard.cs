@@ -21,17 +21,24 @@ public class Hazard : MonoBehaviour
         
     }
 
-    public void InteractWithPlayer(Collider2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Player"))
+
+
+        if (collision.CompareTag("Player"))
         {
+            animator.SetTrigger("MonsterDamage");
+
             //activar animacion 
         }
 
 
     }
 
+    public void InteractWithPlayer()
+    {
 
+    }
 
 
 

@@ -5,8 +5,9 @@ using UnityEngine;
 public class Heal : MonoBehaviour
 {
     public int HealAmount;
-    
-    
+    public Animator animator;
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -19,8 +20,20 @@ public class Heal : MonoBehaviour
     {
         
     }
-    public void InteractWithPlayer(Collider2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
-       
+        if (collision.CompareTag("Player"))
+        {
+            animator.SetTrigger("HealAnimation");
+
+        }
+
     }
+
+    public void InteractWithPlayer()
+    {
+
+    }
+
+
 }

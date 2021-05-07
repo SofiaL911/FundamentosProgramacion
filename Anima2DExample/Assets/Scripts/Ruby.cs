@@ -10,10 +10,11 @@ public class Ruby : MonoBehaviour
     [SerializeField]
     private float moveSpeed;
     
-    [SerializeField]
-    private int currentHP = 30;
-    [SerializeField]
-    private int HP = 30;
+    
+    public int currentHP = 30;
+   
+    public int HP = 30;
+
 
     //private int HP = 30;
     // private int currentHP = 30; Esta en el Script Hazard
