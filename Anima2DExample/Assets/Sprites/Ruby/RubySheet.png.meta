@@ -1,0 +1,691 @@
+fileFormatVersion: 2
+guid: eeafbcb9cd175144d99f0506c056db2d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1179689532383277787
+    second: RunSide1
+  - first:
+      213: 1131449469214495470
+    second: RunSide2
+  - first:
+      213: -8851462101562766852
+    second: RunSide3
+  - first:
+      213: 2528732055837445801
+    second: RunSide4
+  - first:
+      213: 6230984419942905211
+    second: RunUp1
+  - first:
+      213: -1901461187026571299
+    second: RunUp2
+  - first:
+      213: -353665752698598602
+    second: RunUp3
+  - first:
+      213: 6822840575877441529
+    second: RunUp4
+  - first:
+      213: -2863869127904342547
+    second: RunBack1
+  - first:
+      213: 4068846898547224552
+    second: RunBack2
+  - first:
+      213: 3448265432669026736
+    second: RunBack3
+  - first:
+      213: -7565517988795335449
+    second: RunBack4
+  - first:
+      213: -1933501097646048260
+    second: IdleSide
+  - first:
+      213: -769858145841929878
+    second: Idle
+  - first:
+      213: 1539843085731832510
+    second: IdleBack
+  - first:
+      213: -4501641280254417949
+    second: RubySheet_15
+  - first:
+      213: 8460782215252337887
+    second: HitSide
+  - first:
+      213: 8246278663992494505
+    second: HitBack
+  - first:
+      213: 8070482376182931773
+    second: HitFront
+  - first:
+      213: -224533755054546601
+    second: AttackBack
+  - first:
+      213: 3538487966940880493
+    second: AttackSide
+  - first:
+      213: -8958994112413922585
+    second: RotationSide
+  - first:
+      213: 1360649686035638202
+    second: RotationFront
+  - first:
+      213: -4877550082126631157
+    second: RotationBack
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RunSide1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 563.3333
+        width: 112.5
+        height: 112.666664
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a4d26d0ac93c14a95c6b07bd98d7e4
+      internalID: 1179689532383277787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RunSide2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 563.3333
+        width: 112.5
+        height: 112.666664
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac00df3bd5c52948a03af0574c4dee5
+      internalID: 1131449469214495470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RunSide3
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 563.3333
+        width: 112.5
+        height: 112.666664
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04b3a2cf3665a1458e002d93540fad9
+      internalID: -8851462101562766852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RunSide4
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 563.3333
+        width: 112.5
+        height: 112.666664
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655f37b752fedca45907880b00a225aa
+      internalID: 2528732055837445801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RunUp1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 451.33334
+        width: 112.5
+        height: 112.666664
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0b21ca837e63d4681e402214005830
+      internalID: 6230984419942905211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RunUp2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 451.33334
+        width: 112.5
+        height: 112.666664
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8e5760b7dc47c48823513b3131e076
+      internalID: -1901461187026571299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RunUp3
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 451.33334
+        width: 112.5
+        height: 112.666664
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ea33b8a6237e14ca17aadf77a1451a
+      internalID: -353665752698598602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RunUp4
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 451.33334
+        width: 112.5
+        height: 112.666664
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085ac94371427be49b40d5aee7ce4f0c
+      internalID: 6822840575877441529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RunBack1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 340
+        width: 112
+        height: 113
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f492fded4c9e44db4d26d37fa05f44
+      internalID: -2863869127904342547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RunBack2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 339.33334
+        width: 112.5
+        height: 112.666664
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7bdb234c1f01a41b2bc4d56cc5de3f
+      internalID: 4068846898547224552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RunBack3
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 339.33334
+        width: 112.5
+        height: 112.666664
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eab64ed14663cc24788f70c82fcc4cc4
+      internalID: 3448265432669026736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RunBack4
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 339.33334
+        width: 112.5
+        height: 112.666664
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a921d5e6af52649ac9b54c6e19a302
+      internalID: -7565517988795335449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleSide
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 227.33334
+        width: 112.5
+        height: 112.666664
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c578b09f3e81a8479a0d89d2795e1b2
+      internalID: -1933501097646048260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 228
+        width: 112
+        height: 113
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8d66b8e7bdf6614e9384014f818449e
+      internalID: -769858145841929878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleBack
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 227.33334
+        width: 112.5
+        height: 112.666664
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22c119195828d943bf12eb3c744ef75
+      internalID: 1539843085731832510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RubySheet_15
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 227.33334
+        width: 112.5
+        height: 112.666664
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946fb87a90c3f024ebaba17ca6b3e6ba
+      internalID: -4501641280254417949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HitSide
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 115.333336
+        width: 112.5
+        height: 112.666664
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3736d88503c8ab24a9094e5b3ed3de6f
+      internalID: 8460782215252337887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HitBack
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 115.333336
+        width: 112.5
+        height: 112.666664
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbfeb84835abcbb429ff18a2c86b5c77
+      internalID: 8246278663992494505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HitFront
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 115.333336
+        width: 112.5
+        height: 112.666664
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7a2daa8bfad3e48ae96b0d34c1abbc
+      internalID: 8070482376182931773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackBack
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 111
+        width: 112
+        height: 113
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d1fd773eac4e14db798f1516183c72
+      internalID: -224533755054546601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AttackSide
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3.3333359
+        width: 112.5
+        height: 112.666664
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b801fb3cfa558f1439d289d2d2eca3a5
+      internalID: 3538487966940880493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RotationSide
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 3.3333359
+        width: 112.5
+        height: 112.666664
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241aad255e1a88e49b4a04f0438225be
+      internalID: -8958994112413922585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RotationFront
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 3.3333359
+        width: 112.5
+        height: 112.666664
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1f7c6b314efabc469bba86219c2e976
+      internalID: 1360649686035638202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RotationBack
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 3.3333359
+        width: 112.5
+        height: 112.666664
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5470ee86d06797a41be33b5649d34caf
+      internalID: -4877550082126631157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

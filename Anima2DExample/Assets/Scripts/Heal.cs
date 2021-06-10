@@ -6,9 +6,7 @@ public class Heal : MonoBehaviour
 {
     public int HealAmount;
     public Animator animator;
-
-
-
+    public ParticleSystem healParticle;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,15 +23,14 @@ public class Heal : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             animator.SetTrigger("HealAnimation");
+            healParticle.Play();
 
         }
 
     }
 
-    public void InteractWithPlayer()
-    {
+  
 
-    }
 
 
 }

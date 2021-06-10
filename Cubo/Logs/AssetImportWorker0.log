@@ -1,0 +1,165 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.5f1 (8095aa901b9b) revision 8426922'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'es' Physical Memory: 16299 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\ProyectosUnity\2020.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/ProgramacionGit/FundamentosProgramacion/Cubo
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59114
+Successfully changed project path to: D:/ProgramacionGit/FundamentosProgramacion/Cubo
+D:/ProgramacionGit/FundamentosProgramacion/Cubo
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 19.13 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path D:/ProyectosUnity/2020.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/ProgramacionGit/FundamentosProgramacion/Cubo/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   27.21.14.6140
+Initialize mono
+Mono path[0] = 'D:/ProyectosUnity/2020.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'D:/ProyectosUnity/2020.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/ProyectosUnity/2020.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56840
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/ProyectosUnity/2020.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001045 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 20.18 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.984 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000642 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.775 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1114 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.7 MB.
+System memory in use after: 57.8 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1561.
+Total: 1.492000 ms (FindLiveObjects: 0.115100 ms CreateObjectMapping: 0.029300 ms MarkObjects: 1.258800 ms  DeleteObjects: 0.088000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Skybox/New Material.mat
+  artifactKey: Guid(fa27a86da0c205540a023364ba090c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skybox/New Material.mat using Guid(fa27a86da0c205540a023364ba090c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647657243c37cdffc18846b66e40a413') in 0.245331 seconds
+  Import took 0.279279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.908172 seconds.
+  path: Assets/Skybox/New Material.mat
+  artifactKey: Guid(fa27a86da0c205540a023364ba090c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skybox/New Material.mat using Guid(fa27a86da0c205540a023364ba090c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d2548a132136682498d451443c7c85') in 0.011370 seconds
+  Import took 0.014593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.715047 seconds.
+  path: Assets/Skybox/SkyBoxUno.png
+  artifactKey: Guid(31e25e495dbf9994caa46c8f5c026b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skybox/SkyBoxUno.png using Guid(31e25e495dbf9994caa46c8f5c026b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57443a04cdd54947f7805e363dd6c2e1') in 0.073048 seconds
+  Import took 0.075022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.862021 seconds.
+  path: Assets/Modelo
+  artifactKey: Guid(b365b7b761ea97042a395ab13229355d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modelo using Guid(b365b7b761ea97042a395ab13229355d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946355c616cf505993d61b4dd34aef9d') in 0.008692 seconds
+  Import took 0.017844 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 204.345309 seconds.
+  path: Assets/Skybox/pito.png
+  artifactKey: Guid(e9727757e26345b4fae8a3e8d9e5581f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skybox/pito.png using Guid(e9727757e26345b4fae8a3e8d9e5581f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da3b62ed634aa05acdbed15af5bfd23a') in 0.013134 seconds
+  Import took 0.025242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 123.153177 seconds.
+  path: Assets/Skybox/pitoide.png
+  artifactKey: Guid(c9a30c114e372e64e93bb446afe3ab0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skybox/pitoide.png using Guid(c9a30c114e372e64e93bb446afe3ab0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5338604f031cc987b63418430013a5e') in 0.012664 seconds
+  Import took 0.030142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 641.904121 seconds.
+  path: Assets/Skybox/vagina.png
+  artifactKey: Guid(864952cea691403438fb1068b4904b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skybox/vagina.png using Guid(864952cea691403438fb1068b4904b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa03493b90d2707f38126cef10efeeaa') in 0.015269 seconds
+  Import took 0.022066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 537.527143 seconds.
+  path: Assets/Skybox/vagina.png
+  artifactKey: Guid(864952cea691403438fb1068b4904b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skybox/vagina.png using Guid(864952cea691403438fb1068b4904b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09dd31e4b5c434eff0e43ea6166db132') in 0.015930 seconds
+  Import took 0.028800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.577351 seconds.
+  path: Assets/Skybox/vagina.png
+  artifactKey: Guid(864952cea691403438fb1068b4904b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skybox/vagina.png using Guid(864952cea691403438fb1068b4904b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65b7a5b252b06d438b5e68bd8bcac93') in 0.012936 seconds
+  Import took 0.024088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.889583 seconds.
+  path: Assets/Skybox/vagina.png
+  artifactKey: Guid(864952cea691403438fb1068b4904b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skybox/vagina.png using Guid(864952cea691403438fb1068b4904b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340749bf904439d69b989c0263bc966f') in 0.014203 seconds
+  Import took 0.030608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 214.816039 seconds.
+  path: Assets/Skybox/vaginaaaa.png
+  artifactKey: Guid(82e8bac5937ec294585c5e39bb9ddfaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skybox/vaginaaaa.png using Guid(82e8bac5937ec294585c5e39bb9ddfaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95586f73c92750db837fc7dba03e3065') in 0.012419 seconds
+  Import took 0.017703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 155.517192 seconds.
+  path: Assets/Skybox/vagioniioded.png
+  artifactKey: Guid(587c36578180ab1428deed9d08bdd072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Skybox/vagioniioded.png using Guid(587c36578180ab1428deed9d08bdd072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afaa0b993bdf46d1be8a2992b821c575') in 0.020963 seconds
+  Import took 0.029790 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

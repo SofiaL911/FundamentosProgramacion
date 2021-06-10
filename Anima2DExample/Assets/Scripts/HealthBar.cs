@@ -10,15 +10,18 @@ public class HealthBar : MonoBehaviour
     public Image imgHPBar;
 
     private Ruby ruby;
+
     // Start is called before the first frame update
     void Start()
     {
         ruby = GameObject.FindGameObjectWithTag("Player").GetComponent<Ruby>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
         imgHPBar.fillAmount = (float)ruby.currentHP / (float)ruby.HP;
+
     }
 }

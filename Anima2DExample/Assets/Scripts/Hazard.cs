@@ -6,8 +6,7 @@ public class Hazard : MonoBehaviour
 {
     public int DamageAmount;
     public Animator animator;
-
-
+    public ParticleSystem hazardParticle;
 
     // Start is called before the first frame update
     void Start()
@@ -20,27 +19,16 @@ public class Hazard : MonoBehaviour
     {
         
     }
-
     public void OnTriggerEnter2D(Collider2D collision)
     {
 
 
         if (collision.CompareTag("Player"))
         {
-            animator.SetTrigger("MonsterDamage");
-
-            //activar animacion 
+            animator.SetTrigger("HazardDamage");
+            hazardParticle.Play();
         }
 
 
     }
-
-    public void InteractWithPlayer()
-    {
-
-    }
-
-
-
-
 }

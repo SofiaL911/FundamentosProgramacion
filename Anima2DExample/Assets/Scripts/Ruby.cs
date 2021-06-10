@@ -5,14 +5,14 @@ using UnityEngine;
 public class Ruby : MonoBehaviour
 {
     public Animator animator;
+   
     public SpriteRenderer ruby;
+    
     public Rigidbody2D rigidbody;
+    
+    public float moveSpeed;
+    public float jumpForce = 1;
 
-    [Header("Balance variables")]
-    [SerializeField]
-    private float moveSpeed;
-    [SerializeField]
-    private float jumpForce = 1; 
 
     public int currentHP = 30;
     public int HP = 30;
@@ -20,7 +20,6 @@ public class Ruby : MonoBehaviour
     private float horizontal;
     private float vertical;
     private Vector3 direction;
-
 
     // Start is called before the first frame update
     void Start()
@@ -31,42 +30,23 @@ public class Ruby : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Salto de personaje
         horizontal = Input.GetAxis("Horizontal");
         vertical = Input.GetAxis("Vertical");
         direction = new Vector3(horizontal, 0f, vertical);
-        #region Unused
-        //w -> Back
-        /*if (Input.GetKey(KeyCode.W))
-        {
-            animator.SetBool("RunBack",true);
-            animator.SetBool("RunFront",false);
-            animator.SetBool("RunSide",false);
-            transform.position = new Vector2(transform.position.x,transform.position.y + moveSpeed);
-        }
-        //s -> Front
-        if (Input.GetKey(KeyCode.S))
-        {
-            animator.SetBool("RunBack", false);
-            animator.SetBool("RunFront", true);
-            animator.SetBool("RunSide", false);
-            transform.position = new Vector2(transform.position.x, transform.position.y - moveSpeed);
-        }
-        */
-        #endregion
+       
 
-        if(Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            rigidbody.AddForce(new Vector2(0f, jumpForce),ForceMode2D.Impulse);
+            rigidbody.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
         }
 
+        //Movimiento del Personaje
         //a -> Left
-
         if (Input.GetKey(KeyCode.A))
         {
             ruby.flipX = false;
-
-            //animator.SetBool("RunBack", false);
-            //animator.SetBool("RunFront", false);
+            transform.localScale = new Vector3(1, 1, 1);
             animator.SetBool("RunSide", true);
             transform.position = new Vector2(transform.position.x - moveSpeed, transform.position.y);
         }
@@ -75,35 +55,34 @@ public class Ruby : MonoBehaviour
         if (Input.GetKey(KeyCode.D))
         {
             ruby.flipX = true;
+            transform.localScale = new Vector3(-1, -1, -1);
 
-            //animator.SetBool("RunBack", false);
-            //animator.SetBool("RunFront", false);
             animator.SetBool("RunSide", true);
             transform.position = new Vector2(transform.position.x + moveSpeed, transform.position.y);
         }
-        if(direction.magnitude == 0f)
+        if (direction.magnitude == 0f)
         {
             animator.SetBool("RunSide", false);
 
         }
-    }
 
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Hazard"))
+        if (collision.CompareTag("Hazard"))
         {
             if ((currentHP - collision.GetComponent<Hazard>().DamageAmount) < 0)
                 currentHP = 0;
             else
-            currentHP -= collision.GetComponent<Hazard>().DamageAmount;
+                currentHP -= collision.GetComponent<Hazard>().DamageAmount;
             animator.SetTrigger("HitSide");
         }
-        if(collision.CompareTag("Heal"))
+        if (collision.CompareTag("Heal"))
         {
             if ((currentHP + collision.GetComponent<Heal>().HealAmount) > HP)
                 currentHP = HP;
             else
-            currentHP += collision.GetComponent<Heal>().HealAmount;
+                currentHP += collision.GetComponent<Heal>().HealAmount;
             //activar heal particles 
 
         }
@@ -116,6 +95,4 @@ public class Ruby : MonoBehaviour
             animator.SetTrigger("HitSide");
         }
     }
-
-
 }
