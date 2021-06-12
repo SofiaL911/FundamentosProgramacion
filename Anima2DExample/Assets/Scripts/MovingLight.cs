@@ -13,13 +13,13 @@ public class MovingLight : MonoBehaviour
     [SerializeField]
     Quaternion maxRight;
     Coroutine currentCoroutine;
-    //private Light2D luz;
+    private Light2D luz;
 
     // Start is called before the first frame update
     void Start()
     {
 
-        //luz = gameObject.GetComponent<Light2D>();
+        luz = gameObject.GetComponent<Light2D>();
 
         maxLeft.eulerAngles = new Vector3(transform.rotation.x, transform.rotation.y, transform.rotation.z + rotationTreshold);
         maxRight.eulerAngles = new Vector3(transform.rotation.x, transform.rotation.y, transform.rotation.z + rotationTreshold* -1);
@@ -34,7 +34,7 @@ public class MovingLight : MonoBehaviour
         //Alterar luz point light 2D 
         //Mientras este rotando cambie de color
 
-         //luz.color = Color.Lerp(luz.color, Color.yellow, Mathf.PingPong(Time.time, 0.050f));
+         luz.color = Color.Lerp(luz.color, Color.yellow, Mathf.PingPong(Time.time, 0.050f));
 
     }
 
